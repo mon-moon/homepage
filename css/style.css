@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+*,
+::after,
+::before {
+    box-sizing: inherit;
+
+}
+.darkMode {
+    background-color: black;
+    color: #ebe8fd;
+}
+
+.body {
+    color: #333;
+    background-color: #f9f9f9;
+    font-family: 'Nunito', sans-serif;
+    max-width: 1450px;
+    margin: 0px auto;
+}
+
+
+.link {
+    color: #4B0082;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #0f0945;
+}
+.link:hover {
+    color: #7004bd;
+    border-bottom: #4B0082 solid 1px;
+    outline: none;
+}
+.link:active {
+    color: #0aae15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--zabawa nie do zadania xD-->
+
+.contact-form {
+    display: none;
+    background-color: #7B68EE;
+    color: #dbd6f5;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 80%;
+    text-align: center;
+    color: #dbd6f5;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2fb534;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Zaokrąglenie rogów */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #5ba038;
+}
+
+
+
+
+

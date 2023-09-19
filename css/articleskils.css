@@ -1,0 +1,43 @@
+.articleskils {
+    margin: 10px auto;
+    background-color:#c7befc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.articleskils__header2 {
+    color: #333;
+    padding: 15px;
+    font-size: 24px;
+}
+.articleskils__header3 {
+    color: #333;
+    padding: 15px;
+    font-size: 20px;
+}
+.articleskils__paragraph {
+    color: #333;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.articleskils__sendbutton {
+    margin: 10px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+    background-color: #7B68EE;
+    color: white;
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: sticky;
+}
+
+.articleskils__sendbutton:hover {
+    background-color: #5640d4;
+}
