@@ -9,10 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/article.css">
-    <link rel="stylesheet" href="css/articleskils.css">
-    <link rel="stylesheet" href="css/articleSEOtable.css">
-    <link rel="stylesheet" href="css/aboutme.css">
-    <link rel="stylesheet" href="css/power.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,7 +26,7 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item">
-                <a class="nav__link" href="/">Strona główna</a>
+                <a class="nav__link" href="/">Strona główna check</a>
             </li>
             <li class="nav__item">
                 <a class="nav__link" href="#aboutme">O mnie</a>
@@ -57,8 +55,8 @@
                     alt="Monika Sawicka - Specjalista SEO / SEM" height="400">
                 <figcaption class="article__figcaption">Monika Sawicka <br> Ekspertka SEO / SEM</figcaption>
             </figure>
-            <button class="article__callmebutton">Zadzwoń</button>
-            <button class="article__emailmebutton">Zapytaj o współpracę</button>
+            <button class="button">Zadzwoń</button>
+            <button class="button button--sendemail">Zapytaj o współpracę</button>
             
                 <form action="https://postman-echo.com/post" method="POST" enctype="multipart/form-data">
                 <fieldset class="article__fieldset">
@@ -74,126 +72,126 @@
                 </label></fieldset></form>
         </article>
 
-        <article class="articleskils">
-           <a id="skils"><h2 class="articleskils__header2">Usługi i Umiejętności</h2></a>
-            <h3 class="articleskils__header3">SEO</h3>
-            <p class="articleskils__paragraph ">Twoja witryna potrzebuje odpowiedniego światła reflektorów w Google?
+        <article class="article article--color">
+           <a id="skils"><h2 class="article__header2">Usługi i Umiejętności</h2></a>
+            <h3 class="article__header3">SEO</h3>
+            <p class="article__paragraph ">Twoja witryna potrzebuje odpowiedniego światła reflektorów w Google?
                 Pomogę Ci osiągnąć wyższe pozycje w wynikach wyszukiwania.
                 Pozwól swojej witrynie zabłysnąć na szczycie. <a href="#kontakt" class="link">Skontaktuj się</a>
             </p>
-            <h3 class="articleskils__header3">SEM</h3>
-            <p class="articleskils__paragraph ">Czas, by Twoja strona była widoczna dla osób poszukujących dokładnie tego, co masz do
+            <h3 class="article__header3">SEM</h3>
+            <p class="article__paragraph ">Czas, by Twoja strona była widoczna dla osób poszukujących dokładnie tego, co masz do
                 zaoferowania.Dotrzyj do klientów w momencie, gdy są gotowi do działania.</p>
-            <h3 class="articleskils__header3">FB ADS</h3>
-            <p class="articleskils__paragraph ">Facebook to tętniące życiem miejsce, gdzie Twoja marka może zyskać rozgłos.
+            <h3 class="article__header3">FB ADS</h3>
+            <p class="article__paragraph ">Facebook to tętniące życiem miejsce, gdzie Twoja marka może zyskać rozgłos.
                 Konwertuj polubienia na działania i buduj lojalność wśród swojej społeczności.</p>
-            <button class="articleskils__sendbutton">Wyślij wiadomość</button>
+            <button class="button">Wyślij wiadomość</button>
             </article>
 
-        <article class="articleSEOtable">
-            <h2 class="articleSEOtable__h2">Wybierz rozwiązanie optymalne <br>dla Ciebie i twoje firmy</h2>
-            <caption class="articleSEOtable__captiontable">Sprawdź porównanie SEO On-Off-site i Google Ads w tabeli poniej</caption>
-            <div class="articleSEOtable__container">
+        <article class="article">
+            <h2 class="article__header2">Wybierz rozwiązanie optymalne <br>dla Ciebie i twoje firmy</h2>
+            <caption class="table__captiontable">Sprawdź porównanie SEO On-Off-site i Google Ads w tabeli poniej</caption>
+            <div class="table__container">
                 <table>
                     <thead>
                         <tr>
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="col">Kategoria</th>
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="col">SEO On-Site</th>
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="col">SEO Off-Site</th>
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="col">Google Ads</th>
+                            <th class="table__tableCell table__tableheader" scope="col">Kategoria</th>
+                            <th class="table__tableCell table__tableheader" scope="col">SEO On-Site</th>
+                            <th class="table__tableCell table__tableheader" scope="col">SEO Off-Site</th>
+                            <th class="table__tableCell table__tableheader" scope="col">Google Ads</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Definicja</th>
-                            <td class="articleSEOtable__tableCell">Optymalizacja treści i struktury strony internetowej w celu poprawy
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Definicja</th>
+                            <td class="table__tableCell">Optymalizacja treści i struktury strony internetowej w celu poprawy
                                 widoczności w wynikach
                                 organicznych wyszukiwania.</td>
-                            <td class="articleSEOtable__tableCell">Działania poza stroną internetową, takie jak budowa linków i promocja
+                            <td class="table__tableCell">Działania poza stroną internetową, takie jak budowa linków i promocja
                                 treści w celu zwiększenia
                                 autorytetu strony.</td>
-                            <td class="articleSEOtable__tableCell">Płatna forma reklamy internetowej, gdzie reklamodawcy płacą za
+                            <td class="table__tableCell">Płatna forma reklamy internetowej, gdzie reklamodawcy płacą za
                                 wyświetlanie reklam w wynikach
                                 wyszukiwania lub na stronach partnerskich.</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Kontrola</th>
-                            <td class="articleSEOtable__tableCell">Pełna kontrola nad treścią i strukturą strony internetowej.</td>
-                            <td class="articleSEOtable__tableCell">Ograniczona kontrola nad zewnętrznymi witrynami i źródłami linków.
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Kontrola</th>
+                            <td class="table__tableCell">Pełna kontrola nad treścią i strukturą strony internetowej.</td>
+                            <td class="table__tableCell">Ograniczona kontrola nad zewnętrznymi witrynami i źródłami linków.
                             </td>
-                            <td class="articleSEOtable__tableCell">Pełna kontrola nad treściami i budżetem reklamowym.</td>
+                            <td class="table__tableCell">Pełna kontrola nad treściami i budżetem reklamowym.</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Wyniki</th>
-                            <td class="articleSEOtable__tableCell" colspan="2">Długoterminowe, organiczne pozycje w wynikach
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Wyniki</th>
+                            <td class="table__tableCell" colspan="2">Długoterminowe, organiczne pozycje w wynikach
                                 wyszukiwania.
                             </td>
-                            <td class="articleSEOtable__tableCell">Natychmiastowe wyniki, płatne kliknięcia i konwersje.</td>
+                            <td class="table__tableCell">Natychmiastowe wyniki, płatne kliknięcia i konwersje.</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Koszty</th>
-                            <td class="articleSEOtable__tableCell">Koszty związane z optymalizacją strony i tworzeniem treści.</td>
-                            <td class="articleSEOtable__tableCell">Koszty związane z promocją treści, pozyskiwaniem linków itp.</td>
-                            <td class="articleSEOtable__tableCell">Koszty związane z płatnymi kliknięciami, ustalane w modelu CPC (koszt
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Koszty</th>
+                            <td class="table__tableCell">Koszty związane z optymalizacją strony i tworzeniem treści.</td>
+                            <td class="table__tableCell">Koszty związane z promocją treści, pozyskiwaniem linków itp.</td>
+                            <td class="table__tableCell">Koszty związane z płatnymi kliknięciami, ustalane w modelu CPC (koszt
                                 za
                                 kliknięcie).</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Szybkość rezultatów</th>
-                            <td class="articleSEOtable__tableCell">Wymaga czasu na osiągnięcie widoczności i poprawę pozycji.</td>
-                            <td class="articleSEOtable__tableCell">Wymaga czasu na zbudowanie autorytetu strony i efektywnego linkowania.
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Szybkość rezultatów</th>
+                            <td class="table__tableCell">Wymaga czasu na osiągnięcie widoczności i poprawę pozycji.</td>
+                            <td class="table__tableCell">Wymaga czasu na zbudowanie autorytetu strony i efektywnego linkowania.
                             </td>
-                            <td class="tarticleSEOtable__ableCell">Daje natychmiastowe wyniki, gdy kampania jest uruchomiona.</td>
+                            <td class="ttable__ableCell">Daje natychmiastowe wyniki, gdy kampania jest uruchomiona.</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Długotrwałość</th>
-                            <td class="articleSEOtable__tableCell">Długoterminowe efekty i utrzymanie widoczności w wynikach
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Długotrwałość</th>
+                            <td class="table__tableCell">Długoterminowe efekty i utrzymanie widoczności w wynikach
                                 organicznych.
                             </td>
-                            <td class="articleSEOtable__tableCell">Długoterminowe korzyści związane z budową autorytetu.</td>
-                            <td class="articleSEOtable__tableCell">Wyniki są zależne od aktywności reklamowej i budżetu.</td>
+                            <td class="table__tableCell">Długoterminowe korzyści związane z budową autorytetu.</td>
+                            <td class="table__tableCell">Wyniki są zależne od aktywności reklamowej i budżetu.</td>
                         </tr>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Typ wyników</th>
-                            <td class="articleSEOtable__tableCell" colspan="2">Organiczne pozycje w wynikach wyszukiwania.</td>
-                            <td class="articleSEOtable__tableCell">Płatne reklamy w wynikach wyszukiwania i na stronach partnerskich.
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Typ wyników</th>
+                            <td class="table__tableCell" colspan="2">Organiczne pozycje w wynikach wyszukiwania.</td>
+                            <td class="table__tableCell">Płatne reklamy w wynikach wyszukiwania i na stronach partnerskich.
                             </td>
                         </tr>
                     </tbody>
                     <tfoot>
-                        <tr class="articleSEOtable__tableRow">
-                            <th class="articleSEOtable__tableCell articleSEOtable__tableheader" scope="row">Wyślij zapytanie</th>
-                            <td class="articleSEOtable__tableCell" colspan="3"></td>
+                        <tr class="table__tableRow">
+                            <th class="table__tableCell table__tableheader" scope="row">Wyślij zapytanie</th>
+                            <td class="table__tableCell" colspan="3"></td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
         </article>
-        <article class="aboutme">
+        <article class="article article--color">
             <a id="aboutme">
-                <h2 class="aboutme__header2">O Mnie</h2>
+                <h2 class="article__header2">O Mnie</h2>
             </a>
-            <p class="aboutme__paragraph">
+            <p class="article__paragraph">
                 Cześć! Jestem Monika Sawicka - <b>specjalistka z pasją do <i>SEO/SEM</i></b> i optymalizacji stron
                 internetowych.
                 Mam
                 za sobą ponad 5 lat doświadczenia w branży, a moja przygoda z digital marketingiem zaczęła się już na
                 studiach w Wyższej Szkole Bankowej we Wrocławiu na kierunku Marketing i Public Relations.
 
-            <p class="aboutme__paragraph"> Moja droga do SEO/SEM rozpoczęła się od fascynacji analizowaniem algorytmów wyszukiwarek i analizy
+            <p class="article__paragraph"> Moja droga do SEO/SEM rozpoczęła się od fascynacji analizowaniem algorytmów wyszukiwarek i analizy
                 zachowań użytkowników. Z czasem przerodziła się w pełnoprawną karierę, która pozwoliła mi pomóc wielu
                 klientom w osiągnięciu widoczności i sukcesu online.</p>
 
-            <p class="aboutme__paragraph">Podczas mojej kariery zdobyłam wiele umiejętności i doświadczenia. Pracowałam zarówno dla małych
+            <p class="article__paragraph">Podczas mojej kariery zdobyłam wiele umiejętności i doświadczenia. Pracowałam zarówno dla małych
                 lokalnych firm, jak i dużych międzynarodowych przedsiębiorstw. Moje działania zawsze opierają się na
                 solidnej analizie danych, aby dostarczyć spersonalizowane rozwiązania dostosowane do indywidualnych
                 potrzeb każdego klienta.</p>
 
-            <p class="aboutme__paragraph">Moje osiągnięcia w pracy są dla mnie niezwykle ważne. Pomogłam wielu klientom zdobyć czołowe pozycje w
+            <p class="article__paragraph">Moje osiągnięcia w pracy są dla mnie niezwykle ważne. Pomogłam wielu klientom zdobyć czołowe pozycje w
                 wynikach wyszukiwania, co przełożyło się na zwiększenie ruchu na ich stronach, a co za tym idzie - na
                 wzrost sprzedaży i zysków.</p>
 
-            <p class="aboutme__paragraph"> <b>Osiągnij sukces w świecie digital marketingu</b>. Z przyjemnością podejmę współpracę z Twoją firmą
+            <p class="article__paragraph"> <b>Osiągnij sukces w świecie digital marketingu</b>. Z przyjemnością podejmę współpracę z Twoją firmą
                 lub
                 projektami. Skontaktuj się ze mną, a razem opracujemy
                 strategię, która przyniesie pożądane rezultaty.
@@ -202,13 +200,13 @@
                 razem stworzyć wyjątkową obecność online.</p>
             </article>
 
-        <article class="power">
-            <H2 class="power__header2">Poznaj moc SEO</H2>
-            <p class="power__paragraph">Nie trać czasu na układanie puzzli, które wypełniają Twoją stronę internetową. Zaufaj mi, a zastosuję
+        <article class="article article--darkcolor">
+            <H2 class="article__header2 article__header2--light">Poznaj moc SEO</H2>
+            <p class="article__paragraph article__paragraph--light">Nie trać czasu na układanie puzzli, które wypełniają Twoją stronę internetową. Zaufaj mi, a zastosuję
                 odpowiednie strategie, by Twoja witryna była w pełni zoptymalizowana i przyciągała uwagę Twojej grupy
                 docelowej…</p>
-            <button class="power__button">Wyślij wiadomość</button>
-            <h3 class="power__header3">Usługi SEO</h3>
+            <button class="button button--sendemail">Wyślij wiadomość</button>
+            <h3 class="article__header3 article__header3--light">Usługi SEO</h3>
             <ul class="list">
                 <li class="power__listItem">Skuteczna analiza słów kluczowych i badanie rynku</li>
                 <li class="power__listItem">Optymalizacja treści i struktury witryny</li>
@@ -225,14 +223,14 @@
                 <li class="power__listItem">Konsultacje i szkolenia z zakresu SEO/SEM</li>
             </ul>
         </article>
-        <article class="contact">
+        <article class="article article--contact">
             <a id="contact">
-                <h2 class="contact__header2">Kontakt</h2>
+                <h2 class="article__header2 article__header2--light">Kontakt</h2>
             </a>
-            <p class="contact__paragraph">Skontaktuj się ze mną, aby porozmawiać o współpracy lub uzyskać więcej informacji.</p>
-            <p class="contact__paragraph">
-                <p class="contact__paragraph"><strong>Email:</strong> kontakt@seopuzle.pl</p>
-                <p class="contact__paragraph"><strong>Numer telefonu:</strong> +48 000 000 000</p>
+            <p class="article__paragraph article__paragraph--light">Skontaktuj się ze mną, aby porozmawiać o współpracy lub uzyskać więcej informacji.</p>
+            <p class="article__paragraph article__paragraph--light">
+                <p class="article__paragraph article__paragraph--light"><strong>Email:</strong> kontakt@seopuzle.pl</p>
+                <p class="article__paragraph article__paragraph--light"><strong>Numer telefonu:</strong> +48 000 000 000</p>
             </p>
         </article>
     </main>

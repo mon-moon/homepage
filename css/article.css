@@ -5,18 +5,53 @@
     text-align: center;
     padding: 20px;
     margin: 10px;
+    line-height: 1.6;
     border-radius: 15px;
-    box-shadow: inset;
+}
+.article--color {
+    background-color:#c7befc;
+    text-align: left;
+}
+.article--darkcolor {
+    background-color: #7b4df0;
+    text-align: left;
+    color: #e5e2f6;
 }
 
+.article--contact {
+    background-color: #0f0945;
+    text-align: left;
+    color: #e5e2f6;
+}
 .article__h1 {
     text-align: center;
     color: #47474ae2;
     padding: 10px;
 }
-
 .article__paragraph {
     color: #47474ae2;
+    padding: 15px;
+}
+.article__paragraph--light {
+    color: #e5e2f6;
+}
+.article__header2 {
+    color: #333;
+    padding: 15px;
+    font-size: 24px;
+}
+.article__header2--light {
+    color: #e5e2f6;
+}
+
+.article__header3 {
+    color: #333;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.article__header3--light {
+    color: #e5e2f6;
 }
 
 .article__img {
@@ -26,50 +61,7 @@
     font-size: 12px;
     color: #333;
 }
-.article__callmebutton {
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.6;
-    background-color: #7B68EE;
-    color: white;
-    font-size: large;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.article__callmebutton:hover {
-    font-family: 'Nunito', sans-serif;
-    margin: 10px;
-    line-height: 1.6;
-    background-color: #5640d4;
-    color: white;
-    font-size: large;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.article__emailmebutton {
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.6;
-    align-items: center;
-    background-color: #0aae15;
-    color: white;
-    font-size: large;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    position: sticky;
-}
-.article__emailmebutton:hover {
-    background-color: #13cc13;
-}
+
 .article__fieldset {
     background-color: rgb(219, 236, 252);
     border: none;
@@ -97,20 +89,7 @@
     padding: 10px;
     border: none;
 }
-.article__button {
-    background-color: rgb(108, 183, 248);
-    border:  outset 1px;
-    border-color: rgb(75, 164, 241);;
-    color: aliceblue;
-    border-radius: 15px;
-    max-width: 300px;
-    width: 100%;
-    padding: 15px;
-}
-.article__button:hover {
-    background-color: rgb(11, 121, 224);
-}
 
-.article__button:active {
-    background-color: rgb(128, 11, 224);
-}
+
+
+
