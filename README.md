@@ -18,3 +18,4 @@ Started on the 1 of september
 ```javascript 
 console.log "Hello"
 ```
+![image](https://github.com/mon-moon/homepage/assets/131958231/d941d5fd-486f-46fa-9b66-349baab2d022)
