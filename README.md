@@ -1,6 +1,6 @@
 # Monika Sawicka - My website
-![Monika](![image](https://github.com/mon-moon/homepage/assets/131958231/452692c6-842c-4158-ac5c-4d5343fd03c1)
-)
+![image](https://github.com/mon-moon/homepage/assets/131958231/d941d5fd-486f-46fa-9b66-349baab2d022)
+
 ## First website built during you-code course
 [My first web](https://mon-moon.github.io/homepage/)
 
@@ -18,4 +18,4 @@ Started on the 1 of september
 ```javascript 
 console.log "Hello"
 ```
-![image](https://github.com/mon-moon/homepage/assets/131958231/d941d5fd-486f-46fa-9b66-349baab2d022)
+
