@@ -1,95 +1,91 @@
 .article {
-    margin: 10px auto;
-    background-color: aliceblue;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    line-height: 1.6;
-    border-radius: 15px;
+  margin: 10px auto;
+  background-color: aliceblue;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  line-height: 1.6;
+  border-radius: 15px;
 }
 .article--color {
-    background-color:#c7befc;
-    text-align: left;
+  background-color: #c7befc;
+  text-align: left;
 }
 .article--darkcolor {
-    background-color: #7b4df0;
-    text-align: left;
-    color: #e5e2f6;
+  background-color: #7b4df0;
+  text-align: left;
+  color: #e5e2f6;
 }
 
 .article--contact {
-    background-color: #0f0945;
-    text-align: left;
-    color: #e5e2f6;
+  background-color: #0f0945;
+  text-align: left;
+  color: #e5e2f6;
 }
 .article__h1 {
-    text-align: center;
-    color: #47474ae2;
-    padding: 10px;
+  text-align: center;
+  color: #47474ae2;
+  padding: 10px;
 }
 .article__paragraph {
-    color: #47474ae2;
-    padding: 15px;
+  color: #47474ae2;
+  padding: 15px;
 }
 .article__paragraph--light {
-    color: #e5e2f6;
+  color: #e5e2f6;
 }
 .article__header2 {
-    color: #333;
-    padding: 15px;
-    font-size: 24px;
+  color: #333;
+  padding: 15px;
+  font-size: 24px;
 }
 .article__header2--light {
-    color: #e5e2f6;
+  color: #e5e2f6;
 }
 
 .article__header3 {
-    color: #333;
-    padding: 15px;
-    font-size: 20px;
+  color: #333;
+  padding: 15px;
+  font-size: 20px;
 }
 
 .article__header3--light {
-    color: #e5e2f6;
+  color: #e5e2f6;
 }
 
 .article__img {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 .article__figcaption {
-    font-size: 12px;
-    color: #333;
+  font-size: 12px;
+  color: #333;
 }
 
 .article__fieldset {
-    background-color: rgb(219, 236, 252);
-    border: none;
-    border-radius: 20px;
-    max-width: 600px;
-    margin: 10px auto;
+  background-color: rgb(219, 236, 252);
+  border: none;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 10px auto;
 }
 .article__legend {
-    background-color:  aliceblue; 
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 15px;
-    color: #333;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: #333;
 }
 
 .article__input {
-    border-radius: 20px;
-    padding: 10px;
-    border: inset 1px;
+  border-radius: 20px;
+  padding: 10px;
+  border: inset 1px;
 }
 
 .article__input:invalid {
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 10px;
-    border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
 }
-
-
-
-

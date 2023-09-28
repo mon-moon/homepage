@@ -1,23 +1,23 @@
 .contact {
-    background-color: #0f0945;
-    color: #e5e2f6;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 15px;
+  background-color: #0f0945;
+  color: #e5e2f6;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
 }
 
 .contact__header2 {
-    color: #dfdfdf;
-    padding: 15px;
-    font-size: 24px;
+  color: #dfdfdf;
+  padding: 15px;
+  font-size: 24px;
 }
 .contact__header3 {
-    color: #dfdfdf;
-    padding: 15px;
-    font-size: 20px;
+  color: #dfdfdf;
+  padding: 15px;
+  font-size: 20px;
 }
 .contact__paragraph {
-    color: #dfdfdf;
-    padding: 15px;
-    font-size: 18px;
+  color: #dfdfdf;
+  padding: 15px;
+  font-size: 18px;
 }

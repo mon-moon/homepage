@@ -1,55 +1,55 @@
 .table {
-    margin: 10px auto;
-    background-color: aliceblue;
-    color: #333;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 10px;
-    width: 100%;
+  margin: 10px auto;
+  background-color: aliceblue;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
 }
 
 .table__header2 {
-    padding: 15px;
-    font-size: 24px;
+  padding: 15px;
+  font-size: 24px;
 }
 .table__header3 {
-    padding: 15px;
-    font-size: 20px;
+  padding: 15px;
+  font-size: 20px;
 }
 .table__paragraph {
-    color: #333;
-    padding: 15px;
-    font-size: 18px;
+  color: #333;
+  padding: 15px;
+  font-size: 18px;
 }
 
 .table__container {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .table__captiontable {
-    caption-side: top;
-    font-size: 16px;
-    padding: 20px;
+  caption-side: top;
+  font-size: 16px;
+  padding: 20px;
 }
 
 .table__tableCell {
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-    vertical-align: middle;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .table__tableheader {
-    background-color: #dbd6f5;
-    font-size: 18px;
+  background-color: #dbd6f5;
+  font-size: 18px;
 }
 
 .table__tableRow:nth-child(even) {
-    background-color: #ebe8fd;
+  background-color: #ebe8fd;
 }
 
 .table__tableRow:hover {
-    background-color: #bae1f7ce;
+  background-color: #bae1f7ce;
 }

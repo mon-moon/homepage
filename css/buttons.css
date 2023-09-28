@@ -1,50 +1,50 @@
 .button {
-    margin: 10px;
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.6;
-    background-color: #7B68EE;
-    color: white;
-    font-size: large;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+  background-color: #7b68ee;
+  color: white;
+  font-size: large;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 .button:hover {
-    font-family: 'Nunito', sans-serif;
-    margin: 10px;
-    line-height: 1.6;
-    background-color: #5640d4;
-    color: white;
-    font-size: large;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  font-family: "Nunito", sans-serif;
+  margin: 10px;
+  line-height: 1.6;
+  background-color: #5640d4;
+  color: white;
+  font-size: large;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 .button--sendemail {
-    background-color: #0aae15;
-    font-size: large;
+  background-color: #0aae15;
+  font-size: large;
 }
 .button--sendemail:hover {
-    background-color: #13cc13;
+  background-color: #13cc13;
 }
 .article__button {
-    background-color: rgb(108, 183, 248);
-    border:  outset 1px;
-    border-color: rgb(75, 164, 241);;
-    color: aliceblue;
-    border-radius: 15px;
-    max-width: 300px;
-    width: 100%;
-    padding: 15px;
+  background-color: rgb(108, 183, 248);
+  border: outset 1px;
+  border-color: rgb(75, 164, 241);
+  color: aliceblue;
+  border-radius: 15px;
+  max-width: 300px;
+  width: 100%;
+  padding: 15px;
 }
 .article__button:hover {
-    background-color: rgb(11, 121, 224);
+  background-color: rgb(11, 121, 224);
 }
 
 .article__button:active {
-    background-color: rgb(128, 11, 224);
+  background-color: rgb(128, 11, 224);
 }
